@@ -1,0 +1,203 @@
+/* General Reset */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Box Styling */
+.box {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Heading Styling */
+.headinggg {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f7fc;  /* Light background for contrast */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.headinggg h1 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.headinggg .description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Form Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Form Section */
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels and Inputs */
+form label {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+form input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Buttons */
+.button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button button {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#submit {
+    background-color: #4a90e2;
+}
+
+#submit:hover {
+    background-color: #357ab8;
+}
+
+#reset {
+    background-color: #e94e77;
+}
+
+#reset:hover {
+    background-color: #c7385a;
+}
+
+/* Output Section */
+.op-box {
+    margin-top: 30px;
+}
+
+.output {
+    text-align: center;
+}
+
+.output h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Cards Section */
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card .info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between each element in the card */
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* For Edit and Delete buttons to be side-by-side */
+.card .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/* Styling for buttons inside card */
+.card button {
+    display: inline-block; /* Make buttons inline */
+    margin: 5px 0;
+    padding: 8px 12px;
+    background-color: #e94e77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.card button:hover {
+    background-color: #c7385a;
+}
+
+/* Styling for new input fields - Contact Number */
+form .contact-number {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form .contact-number input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+form .contact-number input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
